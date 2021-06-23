@@ -1,0 +1,23 @@
+Object Oriented Programming
+
+OOP is based on concept of "object".
+The object is an instance of a class.
+The class can contain data properties and code(procedure).
+Procedures of an object can access and modify its data properties.
+
+OOP has below main concepts
+1. Encapsulation
+  data can have restriction to hide itself from outside and only allow access from methods from the save class.
+  in Java, private data is only visible to methods inside of same class, protected data is only visible to classes in the same package.
+2. Composition, inheritance, and delegation
+ a. Objects can contain other objects in their instance variables, aka "has-a"
+ b. Inheritance, aka "is-a", means child class can inherit fields and methods from parent class, and can also overwrite the methods from parent class.
+ c. Interface and abstract class are used to create a protocal for classes inherit/extend from them, and also encapsule concrete fields from outside
+3. Polymorphism
+  classes inherit from same class/interface can have different behaviors, like Cat and Dog inherits from Animal but they are different animals.
+  
+  TODO: read clean architecture
+  
+Reference:
+https://en.wikipedia.org/wiki/Object-oriented_programming
+ 
